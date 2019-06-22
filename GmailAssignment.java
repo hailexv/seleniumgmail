@@ -8,7 +8,7 @@ import java.io.File;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class Autotest {
+public class GmailAssignment {
     public static void main(String[] args) throws InterruptedException {
 
         File gecko = new File("G:\\seleniumLab\\chromedriver.exe");
@@ -20,9 +20,9 @@ public class Autotest {
         driver.get("https://www.google.com/gmail/");
 
         //login
-        driver.findElement(By.id("identifierId")).sendKeys("boscodilla@gmail.com");
+        driver.findElement(By.id("identifierId")).sendKeys("henokxv@gmail.com");
         driver.findElement(By.id("identifierNext")).click();
-        driver.findElement(By.name("password")).sendKeys("clickdb@123GOD");
+        driver.findElement(By.name("password")).sendKeys("");
         driver.findElement(By.id("passwordNext")).click();
 
 
